@@ -1,0 +1,61 @@
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.box{
+  border: 5px solid tomato;
+  width: 700px;
+  height: 412px;
+  border-radius: 8px;
+
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.7;
+
+}
+.box:hover{
+  opacity: 1;
+}
+.image img {
+  border: 0px;
+  padding: 0px;
+  margin: 0;
+  width: 300px;
+  height: auto;
+}
+.box div{
+  float: right;
+}
+.container{
+  width: 400px;
+  height: 412.75px;
+  background-color: black;
+  color:white;
+}
+form{
+  margin:20%;
+  height: auto;
+  margin-top: 8px;
+}
+form input, form select{
+  text-align: center;
+  width: 100%;
+  border: 0px;
+  border-bottom: 5px solid tomato;
+  height:30px;
+  margin: 8px;
+  margin-top: 2px;
+  color: white;
+  background-color: black;
+}
+#SUB{
+  background-color: tomato;
+}
+p{
+  margin-left: 20px;
+  font-size:20pt;
+}

@@ -1,0 +1,106 @@
+#body{
+  background-image: url("backgound.jpg");
+  background-attachment: fixed;
+  background-position: center;
+
+}
+div.header{
+  background: blue;
+  border-bottom-style: solid;
+  border-bottom-width: 10px;
+  border-bottom-color: tomato;
+  opacity: 0.9;
+
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  overflow: hidden;
+
+
+}
+li{
+  float: left;
+  padding-left: 16px
+
+}
+li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 16px;
+  font-family: Impact;
+
+}
+li a:hover {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 16px;
+  background-color: tomato;
+
+}
+
+div.mainBody{
+  border-left-style: solid;
+  border-left-width: 10px;
+  border-left-color: tomato;
+  border-top-style: solid;
+  border-top-width: 10px;
+  border-top-color: tomato;
+
+
+  margin-top: 20px;
+  margin-left: 50px;
+
+  padding: 20px;
+
+  background-color: #ffffff;
+  width: 800px;
+  height: 400px;
+}
+div.sideBody{
+  border-left-style: solid;
+  border-left-width: 10px;
+  border-left-color: tomato;
+  border-top-style: solid;
+  border-top-width: 10px;
+  border-top-color: tomato;
+
+  margin-top: 20px;
+  margin-left: 50px;
+
+  padding: 20px;
+
+  background-color: #ffffff;
+  width: 320px;
+  height: 400px;
+}
+div.main div{
+  float:left;
+  opacity: 0.9;
+}
+div.main div:hover{
+  float:left;
+  opacity: 1;
+}
+div p{
+  text-align: justify;
+  font-family: Arial Black;
+  font-size: 16px;
+}
+h1{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+div.footer{
+   background-color: tomato;
+   width: 1323px;
+   margin-left: 10px;
+   margin-top: 80px;
+   position: relative;
+   opacity: 0.9;
+}

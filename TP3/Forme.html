@@ -1,0 +1,39 @@
+<!Doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="index, forme, php, css" />
+    <meta name="author" content="ziad bennadji" />
+    <meta name="description" content="blalblablablabla"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script type="text/javascript" >
+
+      function  alrm() {
+        var password = document.getElementById("PAS").value
+        var user = document.getElementById("USER").value
+        if(password.length < 8){
+          alert("Password must be greater than 8 characters");
+        }else{
+          alert("welcome");
+        }
+      }
+
+    </script>
+
+  </head>
+
+  <body>
+    <div class="Box">
+      <form  action="Forme.html" name="Login">
+        <h1>Longin</h1>
+        The user name <input id="USER" class="text" name="username" type="text" placeholder="username"/><br><br>
+        Password <input id="PAS" class="text" name="Password" type="password" placeholder="password"/><br><br>
+        <input name="remeberme" type="checkbox"/>remember me<br>
+        <input class="button" name="Ok" value="Ok" type="submit" onclick="alrm()"/>
+        <input class="button" name="rest" value="Rest" type="reset"/>
+      </form>
+    </div>
+
+
+  </body>
+</html>
